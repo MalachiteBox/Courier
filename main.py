@@ -54,7 +54,7 @@ def on_rx():
 ble = bluetooth.BLE()
 time.sleep(1) # Стабилизация
 ble.active(True)
-uart = BLEUART(ble, name="Kairos")
+uart = BLEUART(ble, name="sVinOVOZ")
 uart.irq(handler=on_rx)
 
 # === НАСТРОЙКА RFID ===
